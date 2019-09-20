@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('Trailer.jpg');
+    background-repeat: none;
+    background-position: absolute;
+    background-size: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.loginbox{
+    width: 420px;
+    margin: auto;
+    height: 300px;
+    background: #fff;
+    color: #333;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
+    -30px 0px 40px rgba(0, 0, 0, 0.4); 
+    padding: 70px 30px;
+    transition: all 500ms ease-in-out;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    /* sets to center */
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    height: 40px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #ec2a2a;
+    color: #000;
+    border-radius: 25px;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+input[type="submit"]:hover{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    background: orangered;
+}
+
+a{
+    color: #000;
+    margin-top: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #ec2a2a;
+    font-weight: 400px;
+}
